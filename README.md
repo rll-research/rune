@@ -1,6 +1,6 @@
 # Reward Uncertainty for Exploration in Preference-based Reinforcement Learning (RUNE)
 
-Official codebase for [Reward Uncertainty for Exploration in Preference-based Reinforcement Learning](https://openreview.net/forum?id=OWZVD-l-ZrC&referrer=%5Bthe%20profile%20of%20Xinran%20Liang%5D(%2Fprofile%3Fid%3D~Xinran_Liang1)) contains implementations of algorithm and scripts to reproduce experiments This codebase is largely originated and modified from [B-Pref](https://github.com/rll-research/BPref).
+Code implementation for [Reward Uncertainty for Exploration in Preference-based Reinforcement Learning](https://openreview.net/forum?id=OWZVD-l-ZrC) contains implementations of algorithm and scripts to reproduce experiments This codebase is largely originated and modified from [B-Pref](https://github.com/rll-research/BPref).
 
 
 ## Install
