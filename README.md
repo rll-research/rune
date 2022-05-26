@@ -1,6 +1,6 @@
 # Reward Uncertainty for Exploration in Preference-based Reinforcement Learning (RUNE)
 
-Code implementation for [Reward Uncertainty for Exploration in Preference-based Reinforcement Learning](https://openreview.net/forum?id=OWZVD-l-ZrC) and scripts to reproduce experiments. This codebase is largely originated and modified from [B-Pref](https://github.com/rll-research/BPref).
+Code implementation for [Reward Uncertainty for Exploration in Preference-based Reinforcement Learning](https://arxiv.org/abs/2205.12401) and scripts to reproduce experiments. This codebase is largely originated and modified from [B-Pref](https://github.com/rll-research/BPref).
 
 
 ## Install
@@ -26,13 +26,13 @@ Example scripts for running experiments in Table 1 can be reproduced with the fo
 PEBBLE + RUNE:
 
 ```
-./scripts/[env_name]/[max_budget]/run_PEBBLE_rune.sh
-./scripts/[env_name]/[max_budget]/run_PEBBLE.sh
+./scripts/[env_name]/[max_budget]/run_PEBBLE_rune.sh [date: yyyy-mm-dd]
+./scripts/[env_name]/[max_budget]/run_PEBBLE.sh [date: yyyy-mm-dd]
 ```
 
-PrefPPO + RUNE (Button Press):
+PrefPPO + RUNE:
 
 ```
-./scripts/[env_name]/[max_budget]/run_PrefPPO_rune.sh
-./scripts/[env_name]/[max_budget]/run_PrefPPO.sh
+./scripts/[env_name]/[max_budget]/run_PrefPPO_rune.sh [date: yyyy-mm-dd]
+./scripts/[env_name]/[max_budget]/run_PrefPPO.sh [date: yyyy-mm-dd]
 ```
